@@ -8,11 +8,12 @@ import {
 } from '@angular/forms';
 import { PasswordManagerService } from '../../services/password-manager.service';
 import { Observable } from 'rxjs';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-site-list',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, RouterLink],
   templateUrl: './site-list.component.html',
   styleUrls: ['./site-list.component.css'],
 })
