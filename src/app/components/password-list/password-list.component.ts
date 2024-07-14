@@ -11,11 +11,12 @@ import { Observable } from 'rxjs';
 import { CommonModule } from '@angular/common';
 
 import { AES, enc } from 'crypto-js';
+import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
   selector: 'app-password-list',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule],
+  imports: [ReactiveFormsModule, CommonModule, NavbarComponent],
   templateUrl: './password-list.component.html',
   styleUrl: './password-list.component.css',
 })
