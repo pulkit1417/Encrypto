@@ -14,3 +14,10 @@ export const environment = {
 // API_KEY : "AIzaSyATQsqC2aIcUI8Mq4aXAi0wzhjXasxJHK0"
 // AUTH_DOMAIN : "key-manager-15635.firebaseapp.com"
 // MESSAGING_SENDER_ID : "29038001773"
+
+// "projectId":"${PROJECT_ID}",
+//     "appId":"${APP_ID}",
+//     "storageBucket":"${STORAGE_BUCKET}",
+//     "apiKey":"${API_KEY}",
+//     "authDomain":"${AUTH_DOMAIN}",
+//     "messagingSenderId":"${MESSAGING_SENDER_ID}"
