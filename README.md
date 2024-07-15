@@ -1,27 +1,20 @@
-# PasswordManager
+## Password Manager
+### Overview:
+Password Manager is a personal project designed to securely store and manage your passwords. You can add passwords along with their associated website URLs. The passwords are encrypted for security and can be decrypted with a click when needed. You can add multiple passwords for the same website and manage passwords for multiple websites.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+### Features:
+-Add Passwords: Store passwords with their associated website URLs.<br>
+-Encryption/Decryption: Passwords are encrypted for security and can be decrypted with a click.<br>
+-Multiple Passwords per Website: Store more than one password for the same website.<br>
+-Multiple Websites: Manage passwords for multiple websites.<br>
+-User-Friendly Interface: Easy to use and navigate.<br>
 
-## Development server
+### Motivation:
+I created this project to address a common problem I faced—forgetting my passwords. Remembering multiple passwords for various websites can be challenging, so I developed this Password Manager to securely store and easily retrieve my passwords.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Tech Stack:
+-Angular 18: Frontend framework<br>
+-Tailwind CSS: Styling<br>
+-Firebase: Backend and authentication<br>
+-HTML: Structure<br>
+-TypeScript: Type-safe programming<br>
