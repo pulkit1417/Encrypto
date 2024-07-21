@@ -49,10 +49,4 @@ export class PasswordManagerService {
     const dbInstance = doc(this.firestore, `sites/${siteId}/passwords`, passwordId);
     return deleteDoc(dbInstance);
   }
-
-  //login
-
-  login(email:string, password: string){
-    return signInWithEmailAndPassword(this.auth, email, password);
-  }
 }
