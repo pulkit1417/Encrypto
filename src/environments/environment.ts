@@ -8,4 +8,4 @@ export const environment = {
       authDomain: '${AUTH_DOMAIN}',
       messagingSenderId: '${MESSAGING_SENDER_ID}'
     }
-  };
+  }
